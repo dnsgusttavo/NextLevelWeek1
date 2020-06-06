@@ -24,4 +24,42 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.items-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
 
+.items-grid li{
+    list-style: none;
+    background-color: #F5F5F5;
+
+    border: 2px solid #F5F5F5;
+    border-radius: 8px;
+    height: 180px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-grid li span{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+    margin-top: 12px;
+}
+
+.items-grid li.selected{
+    background: #E1FAEC;
+    border: 2px solid #34CB79;
+}
+
+.items-grid li img,
+.items-grid li span{
+    pointer-events: none;
+}
