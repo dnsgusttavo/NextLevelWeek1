@@ -1,0 +1,25 @@
+{
+  "name": "NextLevelWeek1",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnsgusttavo/NextLevelWeek1.git"
+  },
+  "author": "Gustavo Maltez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnsgusttavo/NextLevelWeek1/issues"
+  },
+  "homepage": "https://github.com/dnsgusttavo/NextLevelWeek1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

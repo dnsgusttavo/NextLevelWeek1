@@ -52,6 +52,4 @@ function handleSelectedItem(event){
     selectedItems.sort();
     collectedItems.value = selectedItems;
     
-
-
 }
