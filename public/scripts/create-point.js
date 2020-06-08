@@ -36,7 +36,7 @@ const collectedItems = document.querySelector("input[name=items");
 for (const item of itemsToCollect)
     item.addEventListener("click", handleSelectedItem);
 
-let selectedItems = [];
+let selectedItems = ["Lâmpadas"];
 function handleSelectedItem(event){
     const itemLi = event.target;
     const itemID = itemLi.dataset.id;
