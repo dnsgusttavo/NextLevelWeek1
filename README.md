@@ -7,6 +7,6 @@ Durante a primeira NextLevelWeek da @rocketseat foi desenvolvido este marketplac
 
 ## 🛠️ Como rodar
 - Clone este repositório: `git clone https://github.com/dnsgusttavo/NextLevelWeek1.git`;
-- Instale todas as dependencias: `npm install'`;
+- Instale todas as dependencias: `npm install`;
 - Inicie o servidor: `npm start`.
 - Acesse o localhost na porta 3000: `localhost:3000`.
